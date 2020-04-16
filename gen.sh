@@ -2,7 +2,7 @@
 
 project_name=
 
-function genEample {
+function genExample {
 cat > ${project_name}.c <<EOF
 #include <stdio.h>
 #include <stdlib.h>
@@ -60,7 +60,7 @@ else
 fi
 if [ $bGen -eq 1 ]
 then
-	genEample
+	genExample
 fi
 
 genMakefileAM
